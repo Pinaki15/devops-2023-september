@@ -17,3 +17,11 @@ chmod --> permissions
 Linux distributions:
 CentOS - Amazon Linux, Redhat, Fedora - yum is the default package manager
 Debian - Ubuntu - apt is the default package manager
+
+//All Linux commands
+pwd - Print Working Directory 
+ls --> List the content of present working directory
+//*******mkdir*******//
+mkdir dir1 dir2 dir3 --> create multiple directories
+mkdir dir1,dir2,dir3 --> no error but creates one directory
+mkdir {dir1,dir2,dir3} --> create separate directories using ,
