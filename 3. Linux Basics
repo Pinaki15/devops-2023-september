@@ -29,9 +29,14 @@ mkdir dir{1..9} --> to create multiple directories- creates 9 directories dir1, 
 mkdir dir{a..d} --> creates multiple directories dira,dirb,dirc,dird
 mkdir dir-{k..o} --> creates multiple directories dir-k,dir-l,dir-m,dir-n
 mkdir rk-{1..5}{a..e} --> 5*5 directories would be created 
-
 //*******subirectories*******//
-2-ways to create subdirectories --> 1: Go inside and create dircetory 2.create cubdirectories by staying at home location
+2-ways to create subdirectories --> 
+1: Go inside and create dircetory 
+2.create cubdirectories by staying at home location
+  mkdir abc/red abc/blue abc/yellow OR  mkdir abc/{blue,red,violet}--> create subdirectories in abc from home location 
+  mkdir -p blue/green/red   -->create a subdirectory when parent directory is not present
+
 cd ../../../ --> go back 3 directories back to previous dir -Specify ../ as many number of directories you need to go back
 cd --> go back to home location
 cd - --> got to previous working directory
+
