@@ -111,7 +111,7 @@ docker volume ls
    94  ls -l
    95  docker ps
    96  cat Dockerfile
-   97  docker build . -t httpd1
+   97  docker build . -t httpd1  {build . in case if dockerfile is in same location else need to use complete path of dockerfile}
    98  docker images
    99  docker run -itd -p 82:80 httpd1
   100  cd project1/
